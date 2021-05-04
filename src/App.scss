@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+
+  &__head {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    background-color: #F2F8FD;
+    padding-bottom: 10px;
+
+    &__menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+      height: 100%;
+      border-radius: 15px;
+      cursor: pointer;
+      &:hover{
+        background-color: #D4DADE;
+        border-radius: 15px;
+        color: #5199FF ;
+        font-weight: bold;
+        font-size: 16px;
+      }
+    }
+  }
+
+  &__content {
+    align-self: center;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+

@@ -1,0 +1,11 @@
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.content__actions {
+  width: 95%;
+  height: 95%;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=AddBtn.css.map */
