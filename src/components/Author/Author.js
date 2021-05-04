@@ -9,6 +9,8 @@ const Author = () => {
                 Овчинников Данила Евгеньевич
                 <br/>
                 ПИ19-4
+                <br/>
+                asdfadgadsfgdfh
             </p>
         </div>
     );
